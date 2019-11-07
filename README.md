@@ -8,9 +8,9 @@ This dispense every c++ compilation to generate the node.js module, because it's
 
 The node.js application needs stay on path (*WORKDIR*) **/opt/app** because the link of node-ndkafka module is generated from this path to global node_modules.
 
-## Usage
+## Example your Dockerfile
 
-```
+```yml
 FROM krotondigital/node-rdkafka:10-alpine
 
 WORKDIR /opt/app
